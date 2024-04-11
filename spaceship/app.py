@@ -5,7 +5,6 @@ from starlette.responses import FileResponse
 from spaceship.config import Settings
 from spaceship.routers import api, health
 
-
 def make_app(settings: Settings) -> FastAPI:
     app = FastAPI(
         debug=settings.debug,
@@ -26,3 +25,4 @@ def make_app(settings: Settings) -> FastAPI:
         return 'build/index.html'
 
     return app
+# Python or Peton?
