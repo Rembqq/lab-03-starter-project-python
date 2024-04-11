@@ -25,4 +25,5 @@ def make_app(settings: Settings) -> FastAPI:
         return 'build/index.html'
 
     return app
-# Python or Peton?
+
+# btw, Python or Peton?
